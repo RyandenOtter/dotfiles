@@ -1,2 +1,4 @@
+" Use the Solarized Dark theme
 set background=dark
-syntax on
+colorscheme solarized
+let g:solarized_termtrans=1
