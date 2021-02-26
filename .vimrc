@@ -19,6 +19,10 @@ Plug 'gruvbox-community/gruvbox'
 
 " Trying out this new markdown plugin
 Plug 'gabrielelana/vim-markdown'
+
+" Install the UtiliSnips plugin which allows you to configure and use snippets
+Plug 'SirVer/ultisnips'
+
 " Initialize the plugin system
 call plug#end()
 
