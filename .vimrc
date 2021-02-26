@@ -17,6 +17,8 @@ call plug#begin('~/.vim/plugged')
 " Gruvbox Community theme.
 Plug 'gruvbox-community/gruvbox'
 
+" Trying out this new markdown plugin
+Plug 'gabrielelana/vim-markdown'
 " Initialize the plugin system
 call plug#end()
 
