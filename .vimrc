@@ -12,11 +12,11 @@ endif
 call plug#begin('~/.vim/plugged')
 
 
-" Initialize the plugin system
-call plug#end()
-
 " Gruvbox Community theme.
 Plug 'gruvbox-community/gruvbox'
+
+" Initialize the plugin system
+call plug#end()
 
 " -----------------------------------------------------------------------------
 " Color settings
