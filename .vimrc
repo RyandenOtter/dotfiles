@@ -1,5 +1,7 @@
 " ------------------------------------------------------------------------
 " Plugins
+" We use the vim-plug plugin manager
+" https://github.com/junegunn/vim-plug
 " -----------------------------------------------------------------------
 
 " Install the vim-plug plugin manager if it is not installed.
