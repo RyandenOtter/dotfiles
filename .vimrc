@@ -1,5 +1,5 @@
 syntax enable 
-" Use the Solarized Dark theme
+
+" Set the color scheme
+colorscheme gruvbox
 set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
