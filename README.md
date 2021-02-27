@@ -9,7 +9,7 @@
 # Installation
 
 ```bash
-git clone https://github.com/RealistAI/dotfiles.git && cd dotfiles %% ./bootstrap.sh
+git clone https://github.com/RealistAI/dotfiles.git && cd dotfiles && ./bootstrap.sh
 ```
 
 # Future Goals
