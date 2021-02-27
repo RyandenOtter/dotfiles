@@ -18,6 +18,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'gruvbox-community/gruvbox'
 
 " Trying out this new markdown plugin
+Plug 'godlygeek/tabular'
 Plug 'gabrielelana/vim-markdown'
 
 " Install the UtiliSnips plugin which allows you to configure and use snippets

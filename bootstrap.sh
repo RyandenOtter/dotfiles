@@ -15,8 +15,8 @@ function sync_dotfiles() {
 }
 
 function doIt() {
-	./bootstrap_scripts/install_homebrew.sh
 	sync_dotfiles;
+	./bootstrap_scripts/homebrew.sh
 	# Add the symlink for iterm2 plist.
 	ln -sf com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist	
 	}
