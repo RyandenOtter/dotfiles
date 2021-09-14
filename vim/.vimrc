@@ -3,6 +3,8 @@
 " We use the vim-plug plugin manager
 " https://github.com/junegunn/vim-plug
 " -----------------------------------------------------------------------
+" We don't want vim to muddy our directories with swap files.
+set directory^=$HOME/.vim/swap// " change the default save lovation of the swap files
 
 " Install the vim-plug plugin manager if it is not installed.
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -12,7 +14,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-
 
 " Gruvbox Community theme.
 Plug 'gruvbox-community/gruvbox'
@@ -24,8 +25,14 @@ Plug 'gabrielelana/vim-markdown'
 " Install the UtiliSnips plugin which allows you to configure and use snippets
 Plug 'SirVer/ultisnips'
 
+" Install NerdTree
+Plug 'preservim/nerdtree'
 " Initialize the plugin system
 call plug#end()
+
+" Start NERDTree when Vim is started without file arguments.
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 
 filetype plugin indent on    " required
 
