@@ -22,9 +22,6 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'godlygeek/tabular'
 Plug 'gabrielelana/vim-markdown'
 
-" Install the UtiliSnips plugin which allows you to configure and use snippets
-Plug 'SirVer/ultisnips'
-
 " Install NerdTree
 Plug 'preservim/nerdtree'
 " Initialize the plugin system
