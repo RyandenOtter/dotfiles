@@ -23,11 +23,8 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-" onedark
-Plug 'https://github.com/joshdick/onedark.vim.git'
-
-" Gruvbox Community theme.
-Plug 'gruvbox-community/gruvbox'
+" nordvim color scheme
+Plug 'arcticicestudio/nord-vim'
 
 " Trying out this new markdown plugin
 Plug 'godlygeek/tabular'
@@ -51,6 +48,5 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-set background=dark
-colorscheme onedark 
+colorscheme nord 
 syntax on
